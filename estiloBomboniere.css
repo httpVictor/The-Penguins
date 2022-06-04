@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Lobster&family=Orelega+One&family=PT+Sans&family=Ropa+Sans:ital@1&family=Square+Peg&display=swap');
+
+.textoB {
+    color: rgba(255, 255, 255, 0.999);
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+   
+}
+
+.margem{
+  margin-left: 100px;
+}
+
+.centroBom{
+    text-align: center;
+}

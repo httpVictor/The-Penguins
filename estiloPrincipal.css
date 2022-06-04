@@ -1,0 +1,159 @@
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400;600&family=Rajdhani&family=Ubuntu+Condensed&display=swap');
+.fonteTitulo{
+  font-family: 'Audiowide', cursive;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 1px 1px 30px rgb(249, 45, 45)
+  
+
+}
+
+.fonteSUBtitulo{
+  font-family: 'Rajdhani', sans-serif;
+  color: rgba(255, 255, 255, 0.999);
+  font-size: 55px;
+  text-shadow: 1px 1px 10px rgb(252, 2, 2)
+
+}
+
+.fonteBomboniere{
+  font-family: 'Rajdhani', sans-serif;
+  color: rgba(255, 255, 255, 0.999);
+  font-size: 40px;
+  text-shadow: 1px 1px 10px rgb(252, 2, 2)
+
+}
+
+.fonteTextos{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: 0.05px;
+}
+
+.fonteTextos2{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: 2px;
+  font-size: 25px;
+  color: rgba(188, 5, 5, 0.999);
+}
+
+.fontFooter{
+  font-family: 'Audiowide', cursive;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+.bg-cabecalho{
+    background: linear-gradient(90deg, rgb(0, 0, 0)0%, rgb(4, 8, 136)250%);
+}
+
+.bg-navBar {
+    background: linear-gradient(90deg, rgb(0, 0, 0)0%, rgb(4, 8, 136)250%);
+}
+.bg-fundo{
+    background: linear-gradient(90deg, rgb(0, 0, 0)0%, rgb(4, 8, 136)250%);
+
+}
+
+.tamanho{
+
+  object-fit: fill;
+  width: 80%;
+
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	margin: 0;
+	background: linear-gradient(#f2f2f6, #d3d3e7);
+}
+
+.container {
+  height: 10%;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+.animated-word {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	letter-spacing: 0.15em;
+	font-weight: 100px;
+	font-size: 12px;
+	text-align: center;
+	color: #202125;
+  cursor: pointer;
+  max-width: 200%; 
+  width: 90%; 
+  outline: 1px solid;
+  outline-color: rgba(188, 5, 5, 0.999);
+  outline-offset: 0px;
+  transition: all 1000ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word:hover {
+	color: rgba(247, 11, 11, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 100px;
+}
+
+.shrink:hover
+{
+        -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+        transition-duration: 0.45s;
+
+
+}
+
+.corzinha{
+  color:rgba(188, 5, 5, 0.999); 
+}
+
+/* Botão enviar */
+
+.margemForms{
+  margin-top: 55px;
+}
+
+.opacidadeCarrossel{
+  opacity: 100%;
+}
+
+.centralizar{
+  text-align: center;
+}
+
+.tamanhoImagem{
+  width: 1000px;
+}
+
+.centroImagem{
+ display: block;
+  margin: 0px auto;
+}
+
+.margemCarrossel{
+  margin-left:345px;
+}
+
+
+.sombraImagem{
+  box-shadow: 0.5px 1px 30px 0.5px rgb(0, 34, 255);
+
+}
+
+.carouselSobre{
+  width: 500px;
+}
+
+.imgSobre{
+  width: 300px;
+  height: 210px;
+
+}
